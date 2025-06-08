@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_format_converter">
+      <UniqueIdentifier>{af41928b-22cf-48d3-875d-d3ce2c3f44e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_format_converter\include">
+      <UniqueIdentifier>{b488c51c-7b54-4047-bbb4-7d3c92849415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image_format_converter\src">
+      <UniqueIdentifier>{1869c4bb-967d-492e-8d81-e8889b6f22e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d46a8a24-4392-4ec2-ae43-d6e7f1146298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{8072c237-3a02-4987-8e9e-862223ca3704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\vertex">
+      <UniqueIdentifier>{64b7c29f-1aeb-4bb0-b8be-5fa95e429dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\pixel">
+      <UniqueIdentifier>{ef47c889-aaff-4644-8556-1bee0df4e19c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\converter.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\format_bmp.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\format_dds.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\format_tga.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\pch.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\pixel_flipper.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\image_format_converter\image_format_converter\include\type.h">
+      <Filter>image_format_converter\include</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="slot_indicies.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="visual_object.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\image_format_converter\image_format_converter\src\converter.cpp">
+      <Filter>image_format_converter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\image_format_converter\image_format_converter\src\format_bmp.cpp">
+      <Filter>image_format_converter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\image_format_converter\image_format_converter\src\format_dds.cpp">
+      <Filter>image_format_converter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\image_format_converter\image_format_converter\src\format_tga.cpp">
+      <Filter>image_format_converter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\image_format_converter\image_format_converter\src\pch.cpp">
+      <Filter>image_format_converter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\image_format_converter\image_format_converter\src\pixel_flipper.cpp">
+      <Filter>image_format_converter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="visual_object.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="shaders\Header.hlsli">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\BloomPS.hlsl">
+      <Filter>shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\CombinePS.hlsl">
+      <Filter>shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\HorizBlurPS.hlsl">
+      <Filter>shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\ScenePS.hlsl">
+      <Filter>shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\VertBlurPS.hlsl">
+      <Filter>shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SceneVS.hlsl">
+      <Filter>shaders\vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FullScreenQuadPS.hlsl">
+      <Filter>shaders\pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FullScreenQuadVS.hlsl">
+      <Filter>shaders\vertex</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="objects\bunny.obj">
+      <Filter>objects</Filter>
+    </Resource>
+    <Resource Include="objects\cube.obj">
+      <Filter>objects</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>
